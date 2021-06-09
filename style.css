@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {  
+    --clr-primary: orange;
+    --clr-secondary: lime;
+    --clr-accent: red;
+    --clr-gradient: linear-gradient(-90deg, var(--clr-primary), var(--clr-secondary));
+}
+
+.pageTitle {
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0 2em;
+    margin: 0;
+    background: linear-gradient(90deg, #ffe259, #ffa751);
+    position: relative;
+    z-index: 1;
+    font-size: calc(1rem + 3vw);
+    text-shadow: 3px 5px 10px rgba(0,0,0, .2);
+    clip-path: polygon(0 0, 100% 0%, 100% 60%, 0% 100%);
+}
+
+.pageTitle span {
+    font-weight: var(--fw-number);
+    font-family: 'Bungee', cursive;
+    font-family: 'Bungee Shade', cursive;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 5em;
+    top: -30%;
+    z-index: -1;
+    opacity: .25
+}
+
+.projectsWrapper {
+    margin: 0 auto;
+    width: min(90%);
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2em;
+}
+
+@media screen and (max-width: 800px) {
+    .projectsWrapper {
+        grid-auto-flow: row;
+    }
+}
