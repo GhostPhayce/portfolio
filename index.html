@@ -1,23 +1,30 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tom Ramsden</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap" rel="stylesheet">
-    <div class="headerContainer">
-        <h1 class="pageTitle">Tom Ramsden</h1>
-        <div class="nav">
-            <nav>
-                <a href=pages/contact.html target="_blank">Contact</a>
-                <a href=pages/projects.html target="_blank">Projects</a>
-            </nav>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+        <div class="headerContainer">
+            <h1 class="pageTitle">Tom Ramsden</h1>
+            <div class="nav">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href=#projects>Projects</a>
+                    <a href=#contact>Contact</a>
+                </nav>
+            </div>
         </div>
-    </div>
 </head>
-<main>
 <body>
-    <div class="bodyContainer">
+    <!-- <div class="bodyContainer">
         <div class="cardContainer">
             <div class="card">
                 <div class="photoContainer">
@@ -34,73 +41,102 @@
             </div>
         </div>
     </div>
-    <script src="app.js"></script>
+    <script src="app.js"></script> -->
 </body>
-
-    
-    <figure>
-        <img src="images/tomRamsden.jpg" alt="Photo of Tom Ramsden">
-        <br />
-        <figcaption>
-            This is a photo of me!
-        </figcaption>
-    </figure>
-    <h1>Tom Ramsden</h1>
-    <h2>A little bit about me</h2>
-    <figure>
-        <img src="images/wallace.jpg" alt="Photo of my cat Wallace">
-        <br />
-        <figcaption>
-            This is Wallace, he's the youngest.
-        </figcaption>
-    </figure>
-    <figure>
-        <img src="images/brian.jpg" alt="Photo of my cat Brian">
-        <br />
-        <figcaption>
-            And this is Brian, he's a big lad.
-        </figcaption>
-    </figure>
-    <figure>
-        <img src="images/jackson.jpg" alt="Photo of my cat Jackson">
-        <br />
-        <figcaption>
-            And last but not least, Jackson. She's getting on now and likes to sleep. All. The. Time.
-        </figcaption>
-    </figure>
-    <br />
-    <hr />
-    <h3>About Me</h3>
-    <p>Hello, my name is Tom.</p>
-    <p>I got into coding by signing up with Leeds Codes (part of Manchester Codes!).</p>
-    <br />
-    <hr />
-        <h3>Projects</h3>
+    <section id="about">
+        <div class="hrContainer">
+            <hr class="trans--grow hr1">
+            <h2 class="sectionTitle">About Me <span>(& my cats)</span></h2>
+            <hr class="trans--grow hr2">
+        </div>
+        <div class="aboutContainer">
+            <div class="card">
+                <img src="images/tomRamsden.jpg" alt="Photo of Tom Ramsden">
+                <h2 class="cardTitle">Tom</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, exercitationem sit ipsa consectetur id numquam.</p>
+                <button class="cardButton">Hobbies</button>
+            </div>
+            <div class="card">
+                <img src="images/jackson.jpg" alt="Photo of Jackson">
+                <h2 class="cardTitle">Jackson</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, exercitationem sit ipsa consectetur id numquam.</p>
+                <button class="cardButton">Hobbies</button>
+            </div>
+            <div class="card">
+                <img src="images/brian.jpg" alt="Photo of Brian">
+                <h2 class="cardTitle">Brian</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, exercitationem sit ipsa consectetur id numquam.</p>
+                <button class="cardButton">Hobbies</button>
+            </div>
+            <div class="card">
+                <img src="images/wallace.jpg" alt="Photo of Wallce">
+                <h2 class="cardTitle">Wallace</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, exercitationem sit ipsa consectetur id numquam.</p>
+                <button class="cardButton">Hobbies</button>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="hrContainer">
+            <hr class="trans--grow hr1">
+            <h2 class="sectionTitle">Projects</h2>
+            <hr class="trans--grow hr2">
+        </div>
         <div class="projectsWrapper">
             <div>
                 <h4>Lorem, ipsum dolor.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ullam at optio totam ab est ratione, sed, illo doloremque dignissimos vero voluptatum dolore corporis possimus eos, nobis alias consequatur vel!sit amet consectetur, adipisicing elit. Eligendi corrupti sit ipsum totam perspiciatis laudantium sequi officiis eveniet error minus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, odit beatae eveniet aperiam perspiciatis tempore sed explicabo nulla, culpa sit nemo voluptas maxime repellat obcaecati facilis. Corporis totam repellat exercitationem impedit ipsam similique nam vel, magnam distinctio, consectetur quisquam consequatur ad perferendis sapiente eaque quod at atque adipisci obcaecati, velit libero? Numquam commodi nesciunt officia? Nesciunt quibusdam, excepturi sunt nihil numquam, alias quisquam sint dolorem veniam odit facere consequatur repudiandae, amet accusamus reiciendis? Ipsam at cupiditate nulla eaque nam voluptas nesciunt numquam perferendis fugit sequi quas earum iure ipsa quam, totam dolores ipsum. Consectetur voluptatem ad nam pariatur error!</p>
               </div>
               <div>
                 <h4>Optio, sit excepturi.</h4>
-                <p>Itaque, ab dolor? Quis architecto non obcaecati earum optio ipsum, magni voluptate repudiandae neque consequatur, quibusdam doloremque in libero maiores.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cumque commodi sapiente labore corrupti ab asperiores, beatae porro voluptatibus quos molestiae optio nihil aspernatur molestias, eos quod libero, minus voluptas. Facere facilis omnis, quis nemo aliquid minima quas amet ad sapiente veritatis blanditiis mollitia esse impedit dolorum cupiditate repellat tempora qui expedita, eos necessitatibus. In, quibusdam. Sunt recusandae obcaecati mollitia rem commodi eveniet cum. Possimus, fuga exercitationem labore est vitae officia reiciendis totam id numquam amet. Reiciendis, nemo dolorem? Esse perferendis provident delectus suscipit? Nesciunt vitae cupiditate totam illo velit eveniet dolorum? Quae facilis, corrupti iure veritatis neque soluta quaerat magnam impedit, odit perspiciatis exercitationem sed voluptates ipsam. Eos vitae ad sit expedita deleniti facilis minima totam nemo, commodi sed dicta aut non laudantium officiis nobis maiores saepe, quibusdam quod magni quia quo placeat? Aperiam odit quam veniam. Quia aut fuga eaque voluptatem consequatur laborum minus repudiandae corrupti nulla incidunt!</p>
               </div>
               <div>
                 <h4>Alias, quae? Tempora!</h4>
-                <p>Nisi velit laborum, sequi sit perferendis, ea exercitationem ipsa officiis inventore tenetur assumenda! Consequuntur accusantium quibusdam molestias nam, veritatis labore!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, aperiam. Quis repellendus esse officia, sapiente enim amet a sit qui doloribus ducimus accusamus sunt totam, omnis dolor dolorum fugiat iure libero facere minima. Atque reiciendis laudantium, accusamus quod earum beatae itaque saepe, veritatis consequuntur unde ratione, dolorem laboriosam! Optio totam amet ad delectus modi. Vel unde labore ratione? Aliquam, dolore? Tempora qui ex suscipit fuga quam dolore quasi, obcaecati sint officiis dolorum architecto nihil voluptatum et ducimus praesentium ratione, distinctio temporibus quas tempore. Itaque, eos aspernatur iste ex sunt ea blanditiis harum similique, numquam molestiae corrupti quaerat rerum doloribus! Ducimus?</p>
               </div>
             </div>
         </div>
-    <br />
-    <hr />
-    <h3>Hobbies & Interests</h3>
-    <ul>
-        <li>Petting cats</li>
-        <li>Coding</li>
-        <li>Gaming</li>
-    </ul>
+    </section>
+    <section id="contact">
+        <div class="hrContainer">
+            <hr class="trans--grow hr1">
+            <h2 class="sectionTitle">Contact</h2>
+            <hr class="trans--grow hr2">
+        </div>
+        <div class="contactContainer">
+            <p>Please complete the form below to get in touch.</p>
+            <br />
+            <form>
+                    <label>
+                        Name:
+                        <input type="text" value="name">
+                    </label>
+                    <br /><br />
+                    <label>
+                        Email:
+                        <input type="email" value="email">
+                    </label>
+                    <br /><br />
+                    <label>
+                        Reason for contacting:
+                        <select name="reason">
+                            <option value="sales" selected>Sales</option>
+                            <option value="support">Support</option>
+                            <option value="general-enquiry">General Enquiry</option>
+                        </select>
+                    </label>
+                    <br /><br />
+                    <label>
+                        Your message:<br />
+                        <textarea id="message" placeholder="Your message"></textarea>
+                    </label>
+                    <br /><br />
+                    <input type="submit" name="submit" value="Send">
+            </form>
+        </div>
+    </section>
 </body>
-</main>
 <footer>
     <p>© 2021 - Tom Ramsden</p>
 </footer>
